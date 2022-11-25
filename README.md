@@ -142,6 +142,8 @@ code custom-vision.py
 ```
 
 Add following imports to file and variables with values from Azure CLI output
+Important part is that region northeurope is hardcoded, if you changed Azure CLI for different region, change it in file too
+
 ```
 from azure.cognitiveservices.vision.customvision.training import CustomVisionTrainingClient
 from azure.cognitiveservices.vision.customvision.training.models import ImageFileCreateEntry, ImageFileCreateBatch
@@ -152,7 +154,7 @@ import urllib.request
 import zipfile
 import requests
 
-cv_endpoint = "https://<REGION>.api.cognitive.microsoft.com"
+cv_endpoint = "https://northeurope.api.cognitive.microsoft.com"
 training_key = "<INSERT KEY 1>"
 training_images = "data-train"
 
