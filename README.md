@@ -129,7 +129,7 @@ import urllib.request
 import zipfile
 
 # Download the dataset from Github
-data_url = "https://github.com/staslebedenko/dataset/download/simpsons-lego-dataset.zip"
+data_url = "https://github.com/staslebedenko/transform_cognitive_services/raw/main/dataset/download/simpsons-lego.zip"
 data_path = "./data-train"
 download_path = os.path.join(data_path,"simpsons-lego-dataset.zip")
 if not os.path.exists(data_path):
@@ -293,7 +293,7 @@ import urllib.request
 import zipfile
 
 # Download the dataset from Github
-data_url = "https://github.com/staslebedenko/dataset/download/test-images.zip"
+data_url = "https://github.com/staslebedenko/transform_cognitive_services/raw/main/dataset/download/test-images.zip"
 data_path = "./data-test"
 download_path = os.path.join(data_path,"test-images.zip")
 if not os.path.exists(data_path):
@@ -581,7 +581,7 @@ import urllib.request
 import zipfile
 
 # Download the dataset from Github
-data_url = "https://github.com/staslebedenko/dataset/download/simpsons-lego-dataset.zip"
+data_url = "https://github.com/staslebedenko/transform_cognitive_services/raw/main/dataset/download/simpsons-lego.zip"
 data_path = "./data-train"
 download_path = os.path.join(data_path,"simpsons-lego-dataset.zip")
 if not os.path.exists(data_path):
@@ -745,7 +745,7 @@ import urllib.request
 import zipfile
 
 # Download the dataset from Github
-data_url = "https://github.com/staslebedenko/dataset/download/test-images.zip"
+data_url = "https://github.com/staslebedenko/transform_cognitive_services/raw/main/dataset/download/test-images.zip"
 data_path = "./data-test"
 download_path = os.path.join(data_path,"test-images.zip")
 if not os.path.exists(data_path):
@@ -905,7 +905,7 @@ func azure functionapp publish transformaifunc
 Use the url and add parameter, so function can validat one of the pictures in subset.
   
 ```
-https://transformaifunc.azurewebsites.net/api/classify?url=https://github.com/staslebedenko/dataset/test/Bart.jpg
+https://transformaifunc.azurewebsites.net/api/classify?url=https://github.com/staslebedenko/transform_cognitive_services/raw/main/dataset/test/Bart.jpg
 ```
 
 ```
@@ -913,5 +913,6 @@ https://transformaifunc.azurewebsites.net/api/classify?url=https://github.com/st
 Use the url and add parameter, so function can validat one of the pictures in subset.
   
 ```
-https://transformaifunc.azurewebsites.net/api/classify?url=https://github.com/staslebedenko/dataset/test/Bart.jpg
+https://transformaifunc.azurewebsites.net/api/classify?url=https://github.com/staslebedenko/transform_cognitive_services/raw/main/dataset/test/Bart.jpg
+https://github.com/staslebedenko/transform_cognitive_services/blob/main/dataset/test/Homer.jpg?raw=true
 ```
