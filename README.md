@@ -130,8 +130,9 @@ print("Downloaded file removed: {}".format(download_path))
 ```
 
 And run file by right clicking on a code and selecting run file or with command line
+terminal should be opened in the folder where you created a file
 ```
-python C:\2\dataset-download.py
+python dataset-download.py
 ```
 
 Wait for download to complete, then install custom vision package and create new file
