@@ -98,11 +98,6 @@ mkdir globalvision
 cd globalvision
 ```
 
-Add following code to the first cell and click run(Play button on the left). You will be prompted to install needed dependencies.
-```
-print("hello world")
-```
-
 There is two way to accomplish this workshop, one is via files below, alternative is to add each code section to a new section of Jupiter Notebook.  
   
 Create a new file dataset-download.py via terminal window
