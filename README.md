@@ -92,22 +92,10 @@ pip --version
 ```
 Visual Studio Code - https://code.visualstudio.com/
 
-Find and install extensions for Python and Jupiter notebooks.
-```
-ms-python.python
-ms-toolsai.jupyter
-```
-
 Open terminal in Visual Studio Code from Terminal menu and rund following two commands
 ```
 mkdir globalvision
 cd globalvision
-```
-In VSCode open File menu and click Open Folder created above
-
-Create a new jupiter notebook file. Dont forget to save all files.
-```
-code newbook.ipynb 
 ```
 
 Add following code to the first cell and click run(Play button on the left). You will be prompted to install needed dependencies.
