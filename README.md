@@ -21,8 +21,6 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-
 
 it is build around community workshop below, with improvements and additional logical steps.
 
-# 2 Deploying Azure infrastructure
-
 # Creating Azure infrastructure
 
 Go to the Azure Portal and open Bash command line.
@@ -91,6 +89,8 @@ python -V
 pip --version
 ```
 Visual Studio Code - https://code.visualstudio.com/
+
+And please don't forget to save file changes after changes :)
 
 Open terminal in Visual Studio Code from Terminal menu and rund following two commands
 ```
