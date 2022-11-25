@@ -40,8 +40,8 @@ az account show
 location=northeurope
 postfix=$RANDOM
 
-export groupName=msugodua-ai-workshop$postfix
-export cognAccName=msugoduaaicogn1$postfix
+export groupName=transform-ai-workshop$postfix
+export cognAccName=transformaicogn1$postfix
 
 az group create --name $groupName --location $location
 
@@ -52,7 +52,7 @@ az cognitiveservices account create --name $cognAccName --kind CustomVision.Trai
 #----------------------------------------------------------------------------------
 
 accountSku=Standard_LRS
-accountName=msugoduafunc$postfix
+accountName=transformaifunc$postfix
 
 az storage account create --name $accountName --location $location --kind StorageV2 \
 --resource-group $groupName --sku $accountSku --access-tier Hot  --https-only true
