@@ -2,24 +2,22 @@
 
 There are several key parts of this workshop.
 
-1. Getting an Azure Pass and activate it on your account
+1. Getting an Azure free subscription and activating it https://azure.microsoft.com/en-us/free/
 2. Deploying Azure infrastructure
-3. Setting up a local environment with Visual Studio code, code and model training
+3. Setting up a local environment with Visual Studio code, python and model training
 4. Building Azure function and deploying it.
 5. Running it.
+6. Do the homework, by switching function to the C# code
 
 Get an Azure access via
 
 Pre-requisites:
-Python v3.8.6 with PIP, because Azure functions runtime support this version as the latest one.
+* Python v3.8.6(up to 3.9) with PIP, because Azure functions runtime support compatibility.
 Azure Function tools
-https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v3%2Cwindows%2Ccsharp%2Cportal%2Cbash%2Ckeda#install-the-azure-functions-core-tools
+* https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v3%2Cwindows%2Ccsharp%2Cportal%2Cbash%2Ckeda#install-the-azure-functions-core-tools
 VSCode is a preferred option.
-Azure CLI tools is an option, you can run a command line from Azure Portal.
+* Azure CLI tools is an option, you can run a command line from Azure Portal.
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
-
-
-it is build around community workshop below, with improvements and additional logical steps.
 
 # Creating Azure infrastructure
 
