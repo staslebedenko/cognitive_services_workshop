@@ -449,6 +449,7 @@ https://transformaifunc.azurewebsites.net/api/classify?url=https://github.com/st
 
 Use the url and add parameter, so function can validate the pictures, or you can just google pictures of lego simpsons and pass the direct url.
 ```
+https://st2.depositphotos.com/1009868/6339/i/950/depositphotos_63391419-stock-photo-lego-bart-simpson-minifigure.jpg
 https://github.com/staslebedenko/transform_cognitive_services/raw/main/dataset/test/Bart.jpg
 https://github.com/staslebedenko/transform_cognitive_services/blob/main/dataset/test/Homer.jpg?raw=true
 ```
