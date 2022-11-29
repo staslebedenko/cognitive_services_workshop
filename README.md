@@ -451,3 +451,14 @@ https://st2.depositphotos.com/1009868/6339/i/950/depositphotos_63391419-stock-ph
 https://github.com/staslebedenko/transform_cognitive_services/raw/main/dataset/test/Bart.jpg
 https://github.com/staslebedenko/transform_cognitive_services/blob/main/dataset/test/Homer.jpg?raw=true
 ```
+
+# 5 Homework
+
+If you are C# developer, you might wondering if there is an sample to do it your way. .NET platform have packages to solve the problem
+
+https://onnxruntime.ai/docs/get-started/with-csharp.html
+
+Also you have an approach to use a portal
+https://learn.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector
+
+and also use direct SDK
