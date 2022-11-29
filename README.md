@@ -24,7 +24,9 @@ it is build around community workshop below, with improvements and additional lo
 # Creating Azure infrastructure
 
 Go to the Azure Portal and open Bash command line.
-Copy/paste script below, make sure to select the default subscription, to avoid deployment to your production environment.
+Copy/paste script below, make sure to CHANGE the name Microsoft in the first line to correct name of your subscription, to avoid deployment to your production environment.
+
+![image](https://user-images.githubusercontent.com/36765741/204647123-b451e11b-6ad6-45fa-bccf-bc253f024ea1.png)
 
 You might get a delay, because of provider installations with messages like this.
 Resource provider 'Microsoft.CognitiveServices' used by this operation is not registered. We are registering for you.
@@ -76,11 +78,12 @@ az cognitiveservices account show --name $cognAccName --resource-group $groupNam
 
 ```
 
-At this point you should have:
-- An endpoint URL looking like this: https://<region>.api.cognitive.microsoft.com/ 
-- 2 keys looking like this: 06a611d19f4f4a88a03f3b552a5d2379
-  
+Please save the script output to the dock file, so we can use these scripts for 
 
+At this point you should have:
+- An endpoint URL looking like this: https://northeurope.api.cognitive.microsoft.com/ 
+- 2 keys looking like this: 06a611d19f4f479
+  
 # 3 Setting up the environment
 
 Make sure you have Python installed(with pip) from https://www.python.org/ by running CMD and executing
@@ -435,7 +438,7 @@ requests
 And finally deploy your function app to Azure, use name from Azure CLI script above
   
 ```
-func azure functionapp publish # msugodua-global-ai-workshop
+func azure functionapp publish transform-vision-workshop
 ```
 
 
