@@ -378,6 +378,7 @@ func new --name Classify --template "HTTP trigger" --authlevel "anonymous"
 open the new file(function) in VS Code via command below
 ```
 code Classify/__init__.py 
+cd Classify 
 ```
 
 Replace code inside with 
